@@ -75,7 +75,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Update dependency `com.itemis.maven.plugins:cdi-plugin-utils:3.0.0` -> `io.github.mavenplugins:cdi-plugin-utils:3.4.0`
 - Released to Maven Central
 
-## Updates
+### Updates
 - pom.xml:
   - update parent pom reference
   - update groupId to `io.github.mavenplugins`
