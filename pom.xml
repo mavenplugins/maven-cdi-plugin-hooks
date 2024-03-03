@@ -4,7 +4,8 @@
   <parent>
     <groupId>io.github.mavenplugins</groupId>
     <artifactId>org-parent</artifactId>
-    <version>2-SNAPSHOT</version>
+    <version>3</version>
+    <relativePath></relativePath>
   </parent>
 
   <artifactId>cdi-plugin-hooks</artifactId>
@@ -46,21 +47,27 @@
   </issueManagement>
 
   <properties>
-    <version.cdi-plugin-utils>3.4.0</version.cdi-plugin-utils>
+    <version.java>1.8</version.java>
+    <!-- UNLEASH -->
+    <version.cdi-plugin-utils>3.4.1</version.cdi-plugin-utils>
+    <!-- 3rd PARTY -->
     <version.google-http-client>1.22.0</version.google-http-client> 
     <version.guava>19.0</version.guava>
-    <version.java>1.7</version.java>
-    <version.javax.inject>1</version.javax.inject>
+    <!-- MAVEN -->
     <version.maven>3.3.9</version.maven>
+    <version.maven-plugin-plugin>3.4</version.maven-plugin-plugin>
     <version.maven-invoker>2.2</version.maven-invoker>
   </properties>
 
   <dependencies>
+    <!-- UNLEASH DEPENDENCIES -->
     <dependency>
-      <groupId>io.github.mavenplugins</groupId>
+      <groupId>${groupId.unleash.common}</groupId>
       <artifactId>cdi-plugin-utils</artifactId>
       <version>${version.cdi-plugin-utils}</version>
     </dependency>
+
+    <!-- 3rd PARTY DEPENDENCIES -->
     <dependency>
       <groupId>com.google.http-client</groupId>
       <artifactId>google-http-client</artifactId>
@@ -71,20 +78,40 @@
       <artifactId>guava</artifactId>
       <version>${version.guava}</version>
     </dependency>
+
+    <!-- MAVEN DEPENDENCIES -->
     <dependency>
-      <groupId>javax.inject</groupId>
-      <artifactId>javax.inject</artifactId>
-      <version>${version.javax.inject}</version>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-core</artifactId>
+      <version>${version.maven}</version>
+      <scope>provided</scope>
+      <exclusions>
+        <!-- This cdi-api dependency overlaps with CDI dependencies defined above -->
+        <exclusion>
+          <groupId>javax.enterprise</groupId>
+          <artifactId>cdi-api</artifactId>
+        </exclusion>
+        <exclusion>
+          <!-- This exclusion is key to comply with the m2e embedded implementation at runtime -->
+          <groupId>org.apache.maven</groupId>
+          <artifactId>maven-resolver-provider</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.apache.maven.plugin-tools</groupId>
+          <artifactId>maven-plugin-annotations</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven.plugin-tools</groupId>
+      <artifactId>maven-plugin-annotations</artifactId>
+      <version>${version.maven-plugin-plugin}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.maven.shared</groupId>
       <artifactId>maven-invoker</artifactId>
       <version>${version.maven-invoker}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.maven</groupId>
-      <artifactId>maven-plugin-api</artifactId>
-      <version>${version.maven}</version>
     </dependency>
   </dependencies>
 
