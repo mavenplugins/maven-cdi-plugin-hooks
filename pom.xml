@@ -5,11 +5,11 @@
     <groupId>io.github.mavenplugins</groupId>
     <artifactId>org-parent</artifactId>
     <version>3</version>
-    <relativePath></relativePath>
+    <relativePath/>
   </parent>
 
   <artifactId>cdi-plugin-hooks</artifactId>
-  <version>0.1.2-SNAPSHOT</version>
+  <version>0.1.2</version>
 
   <name>CDI Plugin Hooks</name>
   <description>Provides some common hook implementations for CDI-based Maven plugins.</description>
@@ -38,7 +38,7 @@
   <scm>
     <connection>scm:git:https://github.com/mavenplugins/maven-cdi-plugin-hooks.git</connection>
     <url>https://github.com/mavenplugins/maven-cdi-plugin-hooks</url>
-    <tag>HEAD</tag>
+    <tag>v0.1.2</tag>
   </scm>
 
   <issueManagement>
