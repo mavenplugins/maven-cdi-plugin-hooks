@@ -3,8 +3,6 @@ package com.itemis.maven.plugins.cdi.hooks.http;
 import java.io.IOException;
 import java.util.List;
 
-import javax.inject.Inject;
-
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
 
@@ -28,6 +26,8 @@ import com.itemis.maven.plugins.cdi.ExecutionContext;
 import com.itemis.maven.plugins.cdi.annotations.ProcessingStep;
 import com.itemis.maven.plugins.cdi.annotations.RollbackOnError;
 import com.itemis.maven.plugins.cdi.logging.Logger;
+
+import jakarta.inject.Inject;
 
 @ProcessingStep(id = "httpRequest", description = "Send HTTP requests such as POST, PUT or GET as part of your processing logic.", requiresOnline = true)
 public class HttpRequestHook implements CDIMojoProcessingStep {

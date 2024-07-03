@@ -3,9 +3,6 @@ package com.itemis.maven.plugins.cdi.hooks.mvn;
 import java.io.File;
 import java.util.List;
 
-import javax.inject.Inject;
-import javax.inject.Named;
-
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
 import org.apache.maven.project.MavenProject;
@@ -25,6 +22,9 @@ import com.itemis.maven.plugins.cdi.ExecutionContext;
 import com.itemis.maven.plugins.cdi.annotations.ProcessingStep;
 import com.itemis.maven.plugins.cdi.annotations.RollbackOnError;
 import com.itemis.maven.plugins.cdi.logging.Logger;
+
+import jakarta.inject.Inject;
+import jakarta.inject.Named;
 
 @ProcessingStep(id = "mvn", description = "Invoke a separate Maven build process during your processing logic.")
 public class MavenHook implements CDIMojoProcessingStep {

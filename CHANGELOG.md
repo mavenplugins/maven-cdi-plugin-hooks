@@ -65,6 +65,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - TBD
 
 
+## [0.2.0]
+<!-- !!! Align version in badge URLs as well !!! -->
+[![0.2.0 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins/cdi-plugin-hooks?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=0.2.0)](https://central.sonatype.com/artifact/io.github.mavenplugins/cdi-plugin-hooks/0.2.0)
+
+### Summary
+- Update dependency `io.github.mavenplugins:cdi-plugin-utils:3.4.1` -> `io.github.mavenplugins:cdi-plugin-utils:4.0.0`
+  - => work for Java 8, 11, 17, 21 by CDI WELD 4.0.3.Final with Jakarta Inject API
+
+### Compatibility
+- 👉 This release requires to be used with `unleash-maven-plugin >= v3.0.0` only! It will NOT work with former versions of `unleash-maven-plugin`<br>
+  Reason: CDI dependencies did have been changed from Javax to Jakarta EE
+
+### Updates
+- pom.xml:
+  - update dependency `io.github.mavenplugins:cdi-plugin-utils:3.4.1` -> `io.github.mavenplugins:cdi-plugin-utils:4.0.0`
+
+
 ## [0.1.2]
 <!-- !!! Align version in badge URLs as well !!! -->
 [![0.1.2 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins/cdi-plugin-hooks?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=0.1.2)](https://central.sonatype.com/artifact/io.github.mavenplugins/cdi-plugin-hooks/0.1.2)
@@ -112,6 +129,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - This is just a dummy placeholder to make the parser of GHCICD/release-notes-from-changelog@v1 happy!
 -->
 
-[Unreleased]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/compare/v0.1.2..HEAD
+[Unreleased]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/compare/v0.2.0..HEAD
+[0.2.0]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/compare/v0.1.2..v0.2.0
 [0.1.2]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/compare/v0.1.1..v0.1.2
 [0.1.1]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/releases/tag/v0.1.1

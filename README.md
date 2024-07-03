@@ -4,3 +4,6 @@
 [![CI](https://github.com/mavenplugins/maven-cdi-plugin-hooks/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/mavenplugins/maven-cdi-plugin-hooks/actions/workflows/build_and_deploy.yml)
 
 Provides some common hook implementations for CDI-based Maven plugins.
+
+## Contributors
+[![Code Contributors](https://contrib.rocks/image?repo=mavenplugins/maven-cdi-plugin-hooks)](https://github.com/mavenplugins/maven-cdi-plugin-hooks/graphs/contributors)
