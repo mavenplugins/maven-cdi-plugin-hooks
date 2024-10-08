@@ -65,6 +65,30 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - TBD
 
 
+## [0.2.1]
+<!-- !!! Align version in badge URLs as well !!! -->
+[![0.2.1 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins/cdi-plugin-hooks?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=0.2.1)](https://central.sonatype.com/artifact/io.github.mavenplugins/cdi-plugin-hooks/0.2.1)
+
+### Summary
+- Remove vulnerability warnings due to guava dependency:
+  - Update dependency `io.github.mavenplugins:cdi-plugin-utils:4.0.0` -> `io.github.mavenplugins:cdi-plugin-utils:4.0.1`
+  - Remove explicit dependency to `com.google.guava:guava`
+  - Update dependency `org.apache.maven.shared:maven-invoker:2.2` -> `org.apache.maven.shared:maven-invoker:3.1.0`
+  - Update dependency `com.google.http-client:google-http-client:1.22.0` -> `com.google.http-client:google-http-client:1.45.0`
+
+### Updates
+- pom.xml:
+  - Update dependency `io.github.mavenplugins:cdi-plugin-utils:4.0.0` -> `io.github.mavenplugins:cdi-plugin-utils:4.0.1`
+  - Remove explicit dependency to `com.google.guava:guava`
+  - Update dependency `org.apache.maven.shared:maven-invoker:2.2` -> `org.apache.maven.shared:maven-invoker:3.1.0`
+
+- MavenHook.java:
+  - follow up API change of `org.apache.maven.shared.invoker.InvocationRequest`
+
+- HttpRequestHook.java:
+  - replace usage of `Objects.firstNonNull(...)` by `MoreObjects.firstNonNull(...)`
+
+
 ## [0.2.0]
 <!-- !!! Align version in badge URLs as well !!! -->
 [![0.2.0 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins/cdi-plugin-hooks?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=0.2.0)](https://central.sonatype.com/artifact/io.github.mavenplugins/cdi-plugin-hooks/0.2.0)
@@ -129,7 +153,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - This is just a dummy placeholder to make the parser of GHCICD/release-notes-from-changelog@v1 happy!
 -->
 
-[Unreleased]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/compare/v0.2.0..HEAD
+[Unreleased]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/compare/v0.2.1..HEAD
+[0.2.1]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/compare/v0.2.0..v0.2.1
 [0.2.0]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/compare/v0.1.2..v0.2.0
 [0.1.2]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/compare/v0.1.1..v0.1.2
 [0.1.1]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/releases/tag/v0.1.1
