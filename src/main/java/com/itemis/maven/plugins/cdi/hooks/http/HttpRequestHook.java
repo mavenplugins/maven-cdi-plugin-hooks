@@ -16,8 +16,8 @@ import com.google.api.client.http.HttpRequestFactory;
 import com.google.api.client.http.HttpRequestInitializer;
 import com.google.api.client.http.HttpResponse;
 import com.google.api.client.http.javanet.NetHttpTransport;
-import com.google.api.client.repackaged.com.google.common.base.Objects;
 import com.google.api.client.util.Joiner;
+import com.google.common.base.MoreObjects;
 import com.google.common.base.Splitter;
 import com.google.common.collect.Sets;
 import com.google.common.io.ByteStreams;
@@ -94,7 +94,7 @@ public class HttpRequestHook implements CDIMojoProcessingStep {
 
   private HttpRequest createRequest(ExecutionContext context, HttpRequestFactory requestFactory, GenericUrl url,
       boolean rollback) throws MojoExecutionException {
-    String methodString = Objects
+    String methodString = MoreObjects
         .firstNonNull(rollback ? context.getMappedRollbackDate(KEY_METHOD) : context.getMappedDate(KEY_METHOD), "GET")
         .toUpperCase();
     HttpMethod method = HttpMethod.GET;
