@@ -74,7 +74,7 @@ public class MavenHook implements CDIMojoProcessingStep {
     request.setProfiles(profiles);
     request.setShellEnvironmentInherited(true);
     request.setOffline(this.settings.isOffline());
-    request.setInteractive(this.settings.isInteractiveMode());
+    request.setBatchMode(!this.settings.isInteractiveMode());
 
     this.log.info((isRollback ? "Rolling back " : "Executing ") + "hook " + context.getCompositeStepId()
         + " with the following setup:");
