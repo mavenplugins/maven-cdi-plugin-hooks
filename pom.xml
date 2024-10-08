@@ -4,7 +4,7 @@
   <parent>
     <groupId>io.github.mavenplugins</groupId>
     <artifactId>org-parent</artifactId>
-    <version>4</version>
+    <version>8</version>
     <relativePath/>
   </parent>
 
@@ -18,19 +18,19 @@
 
   <developers>
     <developer>
-      <id>shillner</id>
-      <name>Stanley Hillner</name>
-      <organization>itemis AG</organization>
-      <organizationUrl>https://itemis.com/</organizationUrl>
-      <timezone>1</timezone>
-    </developer>
-    <developer>
       <id>mavenplugins</id>
       <!-- Let Maven Central Search show 'Public Project' as known contributors tag -->
       <name>Public Project</name>
       <url>https://github.com/mavenplugins/maven-cdi-plugin-hooks/graphs/contributors</url>
       <organization>mavenplugins</organization>
       <organizationUrl>https://github.com/mavenplugins/</organizationUrl>
+      <timezone>1</timezone>
+    </developer>
+    <developer>
+      <id>shillner</id>
+      <name>Stanley Hillner</name>
+      <organization>itemis AG</organization>
+      <organizationUrl>https://itemis.com/</organizationUrl>
       <timezone>1</timezone>
     </developer>
   </developers>
@@ -49,10 +49,9 @@
   <properties>
     <version.java>1.8</version.java>
     <!-- UNLEASH -->
-    <version.cdi-plugin-utils>4.0.0</version.cdi-plugin-utils>
+    <version.cdi-plugin-utils>4.0.1-SNAPSHOT</version.cdi-plugin-utils>
     <!-- 3rd PARTY -->
     <version.google-http-client>1.22.0</version.google-http-client>
-    <version.guava>19.0</version.guava>
     <!-- MAVEN -->
     <version.maven>3.3.9</version.maven>
     <version.maven-plugin-plugin>3.13.1</version.maven-plugin-plugin>
@@ -72,11 +71,6 @@
       <groupId>com.google.http-client</groupId>
       <artifactId>google-http-client</artifactId>
       <version>${version.google-http-client}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-      <version>${version.guava}</version>
     </dependency>
 
     <!-- MAVEN DEPENDENCIES -->
