@@ -89,7 +89,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - Update dependency `io.github.mavenplugins:cdi-plugin-utils:4.0.0` -> `io.github.mavenplugins:cdi-plugin-utils:4.0.1`
   - Remove explicit dependency to `com.google.guava:guava`
   - Update dependency `org.apache.maven.shared:maven-invoker:2.2` -> `org.apache.maven.shared:maven-invoker:3.1.0`
-  - Update dependency `com.google.http-client:google-http-client:1.22.0` -> `com.google.http-client:google-http-client:1.45.0`
+  - Update dependency `com.google.http-client:google-http-client:1.22.0` -> `com.google.http-client:google-http-client:1.45.2`
   - Update provided dependency to Maven version `3.3.9` -> `3.8.1`
 
 ### 📦 Updates
