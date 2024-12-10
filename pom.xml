@@ -53,7 +53,7 @@
     <!-- 3rd PARTY -->
     <version.google-http-client>1.45.0</version.google-http-client>
     <!-- MAVEN -->
-    <version.maven>3.3.9</version.maven>
+    <version.maven>3.8.1</version.maven>
     <version.maven-plugin-plugin>3.13.1</version.maven-plugin-plugin>
     <version.maven-invoker>3.1.0</version.maven-invoker>
   </properties>

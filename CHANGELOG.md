@@ -40,22 +40,37 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 <!--
 ## [Unreleased]
 
-### Additions
+### 🚨 Removed
 - TBD
 
-### Changes
+### 💥 Breaking
 - TBD
 
-### Deprecated
+### 📢 Deprecated
 - TBD
 
-### Removals
+### 🚀 New Features
 - TBD
 
-### Fixes
+### 🐛 Fixes
 - TBD
 
-### Security
+### ✨ Improvements
+- TBD
+
+### 🔧 Internal Changes
+- TBD
+
+### 🚦 Tests
+- TBD
+
+### 📦 Updates
+- TBD
+
+### 🔒 Security
+- TBD
+
+### 📝 Documentation Updates
 - TBD
 -->
 
@@ -75,13 +90,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
   - Remove explicit dependency to `com.google.guava:guava`
   - Update dependency `org.apache.maven.shared:maven-invoker:2.2` -> `org.apache.maven.shared:maven-invoker:3.1.0`
   - Update dependency `com.google.http-client:google-http-client:1.22.0` -> `com.google.http-client:google-http-client:1.45.0`
+  - Update provided dependency to Maven version `3.3.9` -> `3.8.1`
 
-### Updates
+### 📦 Updates
 - pom.xml:
   - Update dependency `io.github.mavenplugins:cdi-plugin-utils:4.0.0` -> `io.github.mavenplugins:cdi-plugin-utils:4.0.1`
   - Remove explicit dependency to `com.google.guava:guava`
   - Update dependency `org.apache.maven.shared:maven-invoker:2.2` -> `org.apache.maven.shared:maven-invoker:3.1.0`
+  - Update provided dependency `org.apache.maven:maven-core:3.3.9` -> `org.apache.maven:maven-core:3.8.1`
 
+### 🔧 Internal Changes
 - MavenHook.java:
   - follow up API change of `org.apache.maven.shared.invoker.InvocationRequest`
 
@@ -114,6 +132,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Improve and precise Maven dependencies
 - Requires Java 1.8
 - Update dependency `io.github.mavenplugins:cdi-plugin-utils:3.4.0` -> `io.github.mavenplugins:cdi-plugin-utils:3.4.1`
+- Update provided dependency to Maven version `3.3.9` -> `3.8.1`
 
 ### Updates
 - pom.xml:
