@@ -85,18 +85,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 [![0.2.1 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins/cdi-plugin-hooks?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=0.2.1)](https://central.sonatype.com/artifact/io.github.mavenplugins/cdi-plugin-hooks/0.2.1)
 
 ### Summary
-- Remove vulnerability warnings due to guava dependency:
-  - Update dependency `io.github.mavenplugins:cdi-plugin-utils:4.0.0` -> `io.github.mavenplugins:cdi-plugin-utils:4.0.1`
-  - Remove explicit dependency to `com.google.guava:guava`
-  - Update dependency `org.apache.maven.shared:maven-invoker:2.2` -> `org.apache.maven.shared:maven-invoker:3.1.0`
-  - Update dependency `com.google.http-client:google-http-client:1.22.0` -> `com.google.http-client:google-http-client:1.45.2`
-  - Update provided dependency to Maven version `3.3.9` -> `3.8.1`
+- Remove vulnerability warnings due to guava and Maven dependency - see **📦 Updates** for details.
 
 ### 📦 Updates
 - pom.xml:
   - Update dependency `io.github.mavenplugins:cdi-plugin-utils:4.0.0` -> `io.github.mavenplugins:cdi-plugin-utils:4.0.1`
   - Remove explicit dependency to `com.google.guava:guava`
   - Update dependency `org.apache.maven.shared:maven-invoker:2.2` -> `org.apache.maven.shared:maven-invoker:3.1.0`
+  - Update dependency `com.google.http-client:google-http-client:1.22.0` -> `com.google.http-client:google-http-client:1.46.1`
   - Update provided dependency `org.apache.maven:maven-core:3.3.9` -> `org.apache.maven:maven-core:3.8.1`
 
 ### 🔧 Internal Changes
