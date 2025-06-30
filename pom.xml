@@ -51,7 +51,7 @@
     <!-- UNLEASH -->
     <version.cdi-plugin-utils>4.0.1</version.cdi-plugin-utils>
     <!-- 3rd PARTY -->
-    <version.google-http-client>1.47.0</version.google-http-client>
+    <version.google-http-client>1.47.1</version.google-http-client>
     <!-- MAVEN -->
     <version.maven>3.8.1</version.maven>
     <version.maven-plugin-plugin>3.13.1</version.maven-plugin-plugin>
