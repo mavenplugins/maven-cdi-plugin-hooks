@@ -82,7 +82,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.2.1]
 <!-- !!! Align version in badge URLs as well !!! -->
-[![0.2.1 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins/cdi-plugin-hooks?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=0.2.1)](https://central.sonatype.com/artifact/io.github.mavenplugins/cdi-plugin-hooks/0.2.1)
+[![0.2.1 Badge](https://img.shields.io/maven-central/v/io.github.mavenplugins/cdi-plugin-hooks?label=Maven%20Central&filter=0.2.1)](https://central.sonatype.com/artifact/io.github.mavenplugins/cdi-plugin-hooks/0.2.1)
 
 ### Summary
 - Remove vulnerability warnings due to guava and Maven dependency - see **📦 Updates** for details.
@@ -105,7 +105,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.2.0]
 <!-- !!! Align version in badge URLs as well !!! -->
-[![0.2.0 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins/cdi-plugin-hooks?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=0.2.0)](https://central.sonatype.com/artifact/io.github.mavenplugins/cdi-plugin-hooks/0.2.0)
+[![0.2.0 Badge](https://img.shields.io/maven-central/v/io.github.mavenplugins/cdi-plugin-hooks?label=Maven%20Central&filter=0.2.0)](https://central.sonatype.com/artifact/io.github.mavenplugins/cdi-plugin-hooks/0.2.0)
 
 ### Summary
 - Update dependency `io.github.mavenplugins:cdi-plugin-utils:3.4.1` -> `io.github.mavenplugins:cdi-plugin-utils:4.0.0`
@@ -122,7 +122,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.1.2]
 <!-- !!! Align version in badge URLs as well !!! -->
-[![0.1.2 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins/cdi-plugin-hooks?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=0.1.2)](https://central.sonatype.com/artifact/io.github.mavenplugins/cdi-plugin-hooks/0.1.2)
+[![0.1.2 Badge](https://img.shields.io/maven-central/v/io.github.mavenplugins/cdi-plugin-hooks?label=Maven%20Central&filter=0.1.2)](https://central.sonatype.com/artifact/io.github.mavenplugins/cdi-plugin-hooks/0.1.2)
 
 ### Summary
 - Improve and precise Maven dependencies
@@ -140,7 +140,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.1.1]
 <!-- !!! Align version in badge URLs as well !!! -->
-[![0.1.1 Badge](https://img.shields.io/nexus/r/io.github.mavenplugins/cdi-plugin-hooks?server=https://s01.oss.sonatype.org&label=Maven%20Central&queryOpt=:v=0.1.1)](https://central.sonatype.com/artifact/io.github.mavenplugins/cdi-plugin-hooks/0.1.1)
+[![0.1.1 Badge](https://img.shields.io/maven-central/v/io.github.mavenplugins/cdi-plugin-hooks?label=Maven%20Central&filter=0.1.1)](https://central.sonatype.com/artifact/io.github.mavenplugins/cdi-plugin-hooks/0.1.1)
 
 ### Summary
 - Initial release of this artifact with new groupId `io.github.mavenplugins`
