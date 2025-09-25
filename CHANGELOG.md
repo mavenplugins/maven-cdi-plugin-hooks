@@ -80,6 +80,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - TBD
 
 
+## [0.2.2]
+<!-- !!! Align version in badge URLs as well !!! -->
+[![0.2.2 Badge](https://img.shields.io/maven-central/v/io.github.mavenplugins/cdi-plugin-hooks?label=Maven%20Central&filter=0.2.2)](https://central.sonatype.com/artifact/io.github.mavenplugins/cdi-plugin-hooks/0.2.2)
+
+### Summary
+- Update dependencies - see **📦 Updates** for details.
+
+### 📦 Updates
+- pom.xml:
+  - Update dependency `io.github.mavenplugins:cdi-plugin-utils:4.0.1` -> `io.github.mavenplugins:cdi-plugin-utils:4.0.2`
+  - Update dependency `com.google.http-client:google-http-client:1.46.1` -> `com.google.http-client:google-http-client:1.47.1`
+
+
 ## [0.2.1]
 <!-- !!! Align version in badge URLs as well !!! -->
 [![0.2.1 Badge](https://img.shields.io/maven-central/v/io.github.mavenplugins/cdi-plugin-hooks?label=Maven%20Central&filter=0.2.1)](https://central.sonatype.com/artifact/io.github.mavenplugins/cdi-plugin-hooks/0.2.1)
@@ -168,7 +181,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - This is just a dummy placeholder to make the parser of GHCICD/release-notes-from-changelog@v1 happy!
 -->
 
-[Unreleased]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/compare/v0.2.1..HEAD
+[Unreleased]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/compare/v0.2.2..HEAD
+[0.2.2]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/compare/v0.2.1..v0.2.2
 [0.2.1]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/compare/v0.2.0..v0.2.1
 [0.2.0]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/compare/v0.1.2..v0.2.0
 [0.1.2]: https://github.com/mavenplugins/maven-cdi-plugin-hooks/compare/v0.1.1..v0.1.2

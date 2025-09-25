@@ -49,7 +49,7 @@
   <properties>
     <version.java>1.8</version.java>
     <!-- UNLEASH -->
-    <version.cdi-plugin-utils>4.0.1</version.cdi-plugin-utils>
+    <version.cdi-plugin-utils>4.0.2</version.cdi-plugin-utils>
     <!-- 3rd PARTY -->
     <version.google-http-client>1.47.1</version.google-http-client>
     <!-- MAVEN -->
